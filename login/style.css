@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(wall.jpeg);
+    background-size: cover;
+}
+.student{
+    width: 300px;
+    padding: 30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0,0,4 );
+    text-align: center;
+
+}
+.student h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.student input[type="text"],.student input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.student input[type="text"]:focus,.student input[type="password"]:focus{
+    width: 270px;
+    border-color: yellow;
+
+}
+.student input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid yellow;
+    padding: 14px 35px;
+    
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    
+}
+.student input[type="submit"]:hover{
+    background: yellow;
+}
+    
+
+
+
+

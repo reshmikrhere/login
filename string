@@ -1,0 +1,29 @@
+
+          <?php
+
+
+function countOccurrences($str, $word)
+{
+	
+	$a = explode(" ", $str);
+
+	
+	$count = 0;
+	for ($i = 0; $i < sizeof($a); $i++)
+	{
+		
+	
+	if ($word == $a[$i])
+		$count++;
+	}
+
+	return $count;
+}
+
+
+$str = "the student room ";
+$word = "the";
+echo (countOccurrences($str, $word));
+
+
+?>
